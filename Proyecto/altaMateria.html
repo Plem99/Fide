@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Alta Materias</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+
+	</style>
+</head>
+<body class="fondo">
+	<div class="contenedor seccion">
+		<div class="fw-300 centrar-texto">
+			<h1>Alta de Materias</h1>
+			<form class="formulario">
+				<h3 class="titulo_formulario formulario_label" >Rellene las casillas para el registro</h3>
+				<label class="formulario_label">Ingresa el nombre de la Materia</label> 
+				<input class="formulario_input" name='Materia' placeholder='Ingresa la Materia' type='text'>
+				<label class="formulario_label">Selecciona una Categoria:</label>
+				<select class="formulario_select" name='Materias'>
+					<option disabled=''>Categorias disponibles</option>
+					<option selected='' disabled=''>Selecciona una categoria</option>
+					<option>Ciencias</option>
+					<option>Matematicas</option>
+				</select>
+				<input class='formulario_submit' type='submit' value='Guardar'>
+				<div>
+					<a class="boton boton-negro d-block" href="añadirCategoria.html">Añadir Categoria</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
